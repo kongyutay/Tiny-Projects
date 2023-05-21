@@ -1,0 +1,42 @@
+<!-- 
+	To Do List - CRUD on local storage | Easy Tutorials
+	https://www.youtube.com/watch?v=G0jO8kUrg-I&ab_channel=EasyTutorials
+ -->
+ 
+ <!doctype html>
+ <html>
+	<head>
+		<title>To Do List - CRUD on local storage</title>
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="todo-app">
+				<h2>To-Do-List <img src="images/icon.png"></h2>
+				
+				<!-- Input -->
+				<div class="row">
+					<input type="text" id="input-box" placeholder="Add your text">
+					<button onclick="addTask()">Add</button>
+				</div>
+				
+				<!-- Output -->
+				<ul id="list-container">
+					<!-- Added task will show di sini -->
+				</ul>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+ 
+ 
+ </html>
